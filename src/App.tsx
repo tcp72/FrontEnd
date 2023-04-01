@@ -1,19 +1,5 @@
 import React from 'react';
-//import logo from './logo.svg';
 import './App.css';
-//import TopBanner from './Blah';
-//import MovieList from './Movies';
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <TopBanner saying="Trevor's React Website - Main" />
-//       <MovieList />
-//     </div>
-//   );
-// }
-
-// export default App;
 
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
@@ -37,3 +23,21 @@ export default function App() {
 }
 
 ReactDOM.render(<App />, document.getElementById('root'));
+
+//**************Note to TA: this is left here intentionally for me to reference later. It is notes from the lecture */
+//import React from 'react';
+//import logo from './logo.svg';
+//import './App.css';
+//import TopBanner from './Blah';
+//import MovieList from './Movies';
+
+// function App() {
+//   return (
+//     <div className="App">
+//       <TopBanner saying="Trevor's React Website - Main" />
+//       <MovieList />
+//     </div>
+//   );
+// }
+
+// export default App;
